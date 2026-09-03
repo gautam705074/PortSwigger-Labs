@@ -1,0 +1,22 @@
+# Lab: SQL injection vulnerability allowing login bypass
+
+## Objective
+Perform a SQL injection attack to log in to the application as the `administrator` user.
+
+## Vulnerability Details
+- **Type:** In-band SQL Injection (Authentication Bypass)
+- **Target:** Login functionality (POST request)
+- **Vulnerable Parameter:** Password field (or Username field depending on construction)
+
+## Steps to Solve
+1. Navigate to the lab's login page.
+2. Enter `administrator` as the username.
+3. Use the following payload in the password field:
+   ```text
+   '+or'1'='1
+
+
+
+
+Payload
+'+or'1'='1
